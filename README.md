@@ -5,11 +5,7 @@ This project's primary objective is to become familiar with fundamental Python c
 The fie tree for this project is shown below. 
 
 Python_Contact_book
-|
-|
-|_ _ _ _Main.py
-|
-|_ _ _ _Contact_list.py
+Main.py & Contact_list.py
 
 
 The file main.py displays the menu, existing contacts, updated contacts, deleted contacts, and selected options. The Contact list.py file contains a dictionary with contact information.
