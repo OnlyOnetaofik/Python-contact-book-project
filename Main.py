@@ -1,5 +1,6 @@
+#import contact list from the contact_list.py
 
-from Contact_list import ExistingContacts
+from Contact_list import ExistingContacts    
 from Contact_list import addtoContact
 
 #Creating a menu view
@@ -44,7 +45,7 @@ def DisplayContacts():
 
 
 
-def Update_Contact():
+def Update_Contact():   #Updates the contact
 
     isUpdate = False
     DisplayContacts()
@@ -52,7 +53,7 @@ def Update_Contact():
     ExistedContact = str(input('Enter contact name you would like to edit: '))
 
 
-    for contact in ExistingContacts.values():
+    for contact in ExistingContacts.values():     #loops through the existed contact from the contact_list.py
         if ExistedContact in contact.values():
             print(ExistedContact + 'found and can be edited!')
 
